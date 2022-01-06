@@ -8,3 +8,6 @@ Provides a simple View Modifier to simplify using available space in layouts.
 
 ### PushBackButtonStyle
 Provides a View Modifier that animates the button when it's currently pressed.
+
+### Int+Times
+Handy extension to enable writing simple loops like `3.times { ... }`

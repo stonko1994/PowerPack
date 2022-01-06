@@ -23,5 +23,10 @@ Pod::Spec.new do |s|
       sss.source_files  = "Sources/PushBackButtonStyle/**/*.{swift}"
     end
   end
+
+  s.subspec 'Swift' do |ss|
+    ss.subspec 'Int+Times' do |sss|
+      sss.source_files  = "Sources/Int+Times/**/*.{swift}"
+    end
   end
 end
