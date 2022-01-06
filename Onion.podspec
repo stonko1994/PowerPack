@@ -18,5 +18,10 @@ Pod::Spec.new do |s|
     ss.subspec 'FillSpace' do |sss|
       sss.source_files  = "Sources/View+FillSpace/**/*.{swift}"
     end
+
+    ss.subspec 'PushBackButtonStyle' do |sss|
+      sss.source_files  = "Sources/PushBackButtonStyle/**/*.{swift}"
+    end
+  end
   end
 end

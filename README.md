@@ -5,3 +5,6 @@ Collection of useful Swift and iOS related components/extensions I use in my own
 ## Contents
 ### View+FillSpace
 Provides a simple View Modifier to simplify using available space in layouts.
+
+### PushBackButtonStyle
+Provides a View Modifier that animates the button when it's currently pressed.
