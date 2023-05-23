@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "delayedtransitionview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stonko1994/DelayedTransitionView",
+      "state" : {
+        "revision" : "a6f2f24ab98621a327f5179b1b13225b458c2165",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "marquee",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stonko1994/Marquee",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "176db9f8a21aeeb1a6668b9350464547b9da8a5b"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX",
+      "state" : {
+        "revision" : "1b8b443b61b8b37fafb06c1abad9b6be244c9de9",
+        "version" : "0.1.4"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -14,9 +14,19 @@ let package = Package(
             targets: ["PowerPack"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/stonko1994/DelayedTransitionView", exact: "1.0.0"),
+        .package(url: "https://github.com/SwiftUIX/SwiftUIX", exact: "0.1.4"),
+        .package(url: "https://github.com/stonko1994/Marquee", branch: "develop"),
+    ],
     targets: [
         .target(
-            name: "PowerPack"
+            name: "PowerPack",
+            dependencies: [
+                "DelayedTransitionView",
+                "SwiftUIX",
+                "Marquee"
+            ]
         ),
     ]
 )
