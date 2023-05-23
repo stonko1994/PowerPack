@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stonko1994/Marquee",
       "state" : {
-        "revision" : "69d7b7c6c34ed41d9299cfa8406f91f529c4fef3",
-        "version" : "0.4.0-rc.1"
+        "revision" : "176db9f8a21aeeb1a6668b9350464547b9da8a5b",
+        "version" : "0.4.0-rc.2"
       }
     },
     {

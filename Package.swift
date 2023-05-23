@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/stonko1994/DelayedTransitionView", exact: "1.0.0"),
         .package(url: "https://github.com/SwiftUIX/SwiftUIX", exact: "0.1.4"),
-        .package(url: "https://github.com/stonko1994/Marquee", exact: "0.4.0-rc.1"),
+        .package(url: "https://github.com/stonko1994/Marquee", exact: "0.4.0-rc.2"),
     ],
     targets: [
         .target(
