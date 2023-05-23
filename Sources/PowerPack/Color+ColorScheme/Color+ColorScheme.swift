@@ -1,6 +1,6 @@
 import SwiftUIX
 
-extension Color {
+public extension Color {
     init(light: Color, dark: Color) {
         self.init("CustomColor", bundle: nil)
 
