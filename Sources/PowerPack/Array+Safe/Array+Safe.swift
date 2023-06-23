@@ -1,6 +1,6 @@
 import Foundation
 
-extension Array {
+public extension Array {
     subscript(safe index: Int) -> Element? {
         guard index >= startIndex, index < endIndex else {
             return nil
