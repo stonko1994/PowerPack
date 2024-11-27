@@ -1,5 +1,6 @@
 import SwiftUIX
 
+#if os(iOS) || os(tvOS) || os(visionOS) || targetEnvironment(macCatalyst)
 public extension Color {
     init(light: Color, dark: Color) {
         self.init("CustomColor", bundle: nil)
@@ -26,3 +27,4 @@ public extension Color {
         return Color(resolvedColor)
     }
 }
+#endif

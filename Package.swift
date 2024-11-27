@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "PowerPack",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14), .watchOS(.v9)
     ],
     products: [
         .library(
